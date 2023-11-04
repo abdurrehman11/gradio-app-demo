@@ -4,6 +4,9 @@ from PIL import Image
 from extract_image import extract_images_from_pdf
 
 
+# first run this file with just model and processor (line # 8 & 9) to download the data
+# Or download the pretraind model and processor from huggingface and put them in 
+# appropriate directory and then read from that directory
 model = CLIPModel.from_pretrained("openai/clip-vit-large-patch14")
 processor = CLIPProcessor.from_pretrained("openai/clip-vit-large-patch14")
 
