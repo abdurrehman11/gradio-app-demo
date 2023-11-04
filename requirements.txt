@@ -1,0 +1,6 @@
+gradio
+PyMuPDF
+Pillow
+huggingface
+torch
+transformers
